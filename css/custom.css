@@ -143,6 +143,11 @@ body{
 	background-repeat:repeat-y;
 	background-position:left top;
 }
+#index-h{
+	margin-top:3rem;
+	margin-bottom: 0.25rem;
+}
+
 @media(max-width:1380px){
 		body{
 	background-image:none;
@@ -185,7 +190,7 @@ body{
 .judge{
 	display:flex; 
 	margin:0;
-	padding:3rem;
+	margin-bottom: 2.5rem;
 	list-style:none;
 	justify-content:center;
 }
@@ -197,10 +202,8 @@ body{
 .judge > li{ 
 	display:block; 
 	vertical-align:top;
-	height:25px;
-	line-height:25px; 
 	box-sizing:border-box;
-	margin:0 0.8rem;
+
 }
 .judge > li.active >a{ 
 	background-color:#A84129;
